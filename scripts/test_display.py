@@ -13,4 +13,4 @@ class TestDisplay:
     def test_mobile_display_input(self):
         self.display_page.click_search()
         self.display_page.send_keys_input("hello")
-        self.display_1page.click_back()
+        self.display_page.click_back()
